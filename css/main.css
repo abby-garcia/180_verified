@@ -1,10 +1,16 @@
+*{
+	font-family: 'Source Sans Pro', sans-serif;
 
+}
 
 
 
 /*Header and first section*/
 
-
+.first_square{
+	background-image: url("../img/office.jpeg");
+	background-size:cover;
+}
 
 
 
@@ -15,17 +21,65 @@
 }
 
 
-/*Our Services*/
+/*Redefining the web*/
+.redefining {
+	background-color: #5C1BB7;
+	color:white;
+}
+
+/*#layer_img{
+	width:20px;
+	height:20px;
+}*/
+
+
+.redefine_text{
+	padding-top: 5%;
+	margin-bottom: 10%;
+
+}
+
+/*Services*/
 
 .services{
 	text-align: center;
+	background-color: black;
+	color:white;
 }
 
+.services p{
+	color:grey;
+}
+
+.services i{
+	color:purple;
+}
+
+
+.row2{
+	padding-bottom: 5%;
+}
 
 /*Our Team*/
 .our_team{
 	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 5%;
 }
+
+.our_team_text{
+	padding-bottom: 10%;
+}
+
+.our_team h4, i{
+	color:purple;
+}
+
+.our_team h5{
+	color:#7D0541;
+}
+
+
 
 /*team pictures*/
 
@@ -39,13 +93,35 @@ img{
 
 /*Contact*/
 .contact{
+
+	background-color: #3B3131;
+	color:white;
+	padding:5% 5% 10% 5%;
+}
+
+.contact p, i{
+	color:grey;
+}
+
+.contact_text{
 	text-align: center;
+	padding-bottom: 3%;
+}
+
+
+/*Footer*/
+footer{
+	background-color: black;
 }
 
 
 
+.contact_list li{
+	color:grey;
+	text-decoration: none;
+	list-style-type:none
+}
 
-
-
-
-
+.title_contact{
+	color:white;
+}
