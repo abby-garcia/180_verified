@@ -19,7 +19,7 @@
     color: white;
 }
 
-nav * {
+/*nav * {
 	display:inline-block;
 }
 
@@ -39,7 +39,94 @@ nav li {
 	list-style-type:none;
 	display:inline-block;
 	padding-right: 30px;
+}*/
+
+
+.header_list {
+    position: relative;
+    float: right;
+    display: block;
+    width: 53.98%;
+
 }
+
+    @media screen and (min-width: 801px){
+        .header_list {
+            display: block !important;
+        }
+    }
+    @media screen and (max-width: 800px){
+        .header_list {
+            background-color: lightgray;
+            display: none;
+            padding: 0px;
+        }
+    }
+
+
+.header_list ul, li{
+    display: inline;
+}
+    @media screen and (max-width: 800px){
+        .header_list li {
+            display: block;
+            text-align: center;
+            font-size: 1.5em;
+        }
+    }
+
+.header_list a{
+    text-decoration: none;
+    padding-left: 2%;
+    font-size: 14px;
+}
+    @media screen and (max-width: 800px){
+        .header_list a {
+            display: block;
+            text-align: center;
+            width: 100%;
+            padding: 10px 0px;
+            color: white;
+        }
+        .header_list a:hover {
+            background-color: gray;
+        }
+    }
+
+
+.hamburger {
+    position: absolute;
+    right: 20px;
+    top: 27px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 5px 10px 2px;
+    border-radius: 5px;
+    display: none;
+}
+    @media screen and (max-width: 800px){
+        .hamburger {
+            display: block;
+        }
+    }
+
+.logo{
+    float: left;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+/*End HEader*/
+
+
+
 
 .hello_world_text{
 	text-align: center;
