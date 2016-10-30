@@ -8,8 +8,12 @@
 /*Header and first section*/
 
 .first_square{
-	background-image: url("../img/office.jpeg");
-	background-size:cover;
+	background-image: url(../img/office.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 82%;
+    padding-top: 32.64%;
 }
 
 
@@ -19,6 +23,9 @@
 .hello_world_text{
 	text-align: center;
 }
+
+
+
 
 
 /*Redefining the web*/
@@ -91,6 +98,20 @@ img{
 
 
 
+/*Purple Strip with sponsers - NOT WORKING*/
+.purple_strip{
+	width:10%;
+	background-color: purple;
+}
+
+.purple_list li{
+	list-style-type: none;
+}
+
+.purple_list img{
+	display: inline;
+}
+
 /*Contact*/
 .contact{
 
@@ -99,7 +120,7 @@ img{
 	padding:5% 5% 10% 5%;
 }
 
-.contact p, i{
+.contact p, .contact i{
 	color:grey;
 }
 
@@ -107,6 +128,8 @@ img{
 	text-align: center;
 	padding-bottom: 3%;
 }
+
+
 
 
 /*Footer*/
@@ -117,11 +140,20 @@ footer{
 
 
 .contact_list li{
-	color:grey;
 	text-decoration: none;
-	list-style-type:none
+	list-style-type:none;
 }
+
+.contact_list a{
+	color:grey;
+}
+
 
 .title_contact{
 	color:white;
+}
+
+.border{
+	border:1px solid grey;
+	margin-left: 3%;
 }
