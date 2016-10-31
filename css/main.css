@@ -174,7 +174,7 @@ img{
 
 
 
-/*Purple Strip with sponsers - NOT WORKING*/
+/*Purple Strip with sponsers */
 .purple_strip{
 	width: 100%;
 	height: 52px;
@@ -347,14 +347,14 @@ footer .copyright {
 
 	.support{
 		position: relative;
-	    left: 194px;
-	    bottom: 68px;
+    	right: 2px;
+    	bottom: -5px;
 	}
 
 	.apps{
 		position: relative;
-	    right: 194px;
-	    top: 27px;
+	    right: 0px;
+	    top: 9px;
 	}
 
 	
