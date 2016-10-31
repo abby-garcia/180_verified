@@ -42,42 +42,8 @@
     background-color: transparent;
 }
 
-@media (max-width: 768px) {
-	.navbar {
-   		position: fixed;
-   		width:100%;
-	}
-	nav.navbar-inverse {
-		background-color: #5C1BB7;
-	    margin-bottom: 0;
-
-	}
-
-	.navbar-header {
-		position: none;
-	    left: 1rem;
-	}
-	
-}
-
-/*nav * {
-	display:inline-block;
-}
 
 
-
-
-.nav_logo {
-	padding-left: 5%;
-	padding-right: 55%;
-	padding-top: 5px;
-}
-
-nav li {
-	list-style-type:none;
-	display:inline-block;
-	padding-right: 30px;
-}*/
 
 .navbar .icon-bar {
     background-color: #fff;
@@ -300,3 +266,156 @@ footer .copyright {
 	margin-left: 3%;
 	padding-top: 18px;
 }
+
+
+
+/*MEDIA QUERIES*/
+
+
+/*mobile*/
+@media (max-width: 450px) {
+	.navbar {
+   		position: fixed;
+   		width:100%;
+	}
+	nav.navbar-inverse {
+		background-color: #5C1BB7;
+	    margin-bottom: 0;
+
+	}
+
+	.navbar-header {
+		position: none;
+	    left: 1rem;
+	}
+
+
+	.first_square {
+    	max-height: 376px;
+   }
+
+
+
+	.redefining{
+		position: relative;
+	}
+
+	.redefine_text h2{
+		position: absolute;
+	    top: 0;
+	    left: 16%;
+	}
+
+
+	.layer_img {
+		position: absolute;
+    	top: 70px;
+    	left: 3%;
+
+	}
+
+	.layer_img img {
+		width: 150px;
+		height: 150px;
+	}
+
+	.redefine_text .redefine_p{
+		position: absolute;
+	    bottom: 92px;
+	    left: 16%;
+	}
+
+	.redefining .learn_more_button {
+		position: absolute;
+	    bottom: 48px;
+	    top: initial;
+	    left: 37%;
+	}
+
+	.team-pictures {
+		padding-left: 0;
+    	padding-right: 0;
+	}
+
+	.purple_list li {
+	    padding-right: 61px;
+	}
+
+	.footer_row{
+		height: 229px;
+	}
+
+	.support{
+		position: relative;
+	    left: 194px;
+	    bottom: 68px;
+	}
+
+	.apps{
+		position: relative;
+	    right: 194px;
+	    top: 27px;
+	}
+
+	
+}
+/*tablet*/
+@media only screen 
+  and (min-width:500px) and (max-width:1024px) {
+	.redefining{
+		position: relative;
+	}
+
+	.redefine_text h2{
+		position: absolute;
+	    top: 0;
+	    left: 38%;
+	}
+
+
+	.layer_img {
+		padding-left: 56px;
+	    padding-right: 15px;
+	    position: relative;
+	    top: 68px;
+
+	}
+
+	.layer_img img {
+		width: 374px;
+    	height: 400px;
+	}
+
+	.redefine_text .redefine_p{
+		position: absolute;
+	    bottom: 92px;
+	    left: 60%;
+	    top: 32%;
+	}
+
+	.redefining .learn_more_button {
+		position: absolute;
+	    bottom: 48px;
+	    top: initial;
+	    left: 60%;
+	}
+
+	.support{
+		position: absolute;
+	    bottom: -37px;
+	    margin-bottom: 18px;
+	}
+
+	.border{
+		margin-top: 37px;
+	}
+
+	
+
+
+
+
+  }
+
+
+
