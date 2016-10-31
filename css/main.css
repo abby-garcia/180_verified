@@ -338,7 +338,12 @@ footer .copyright {
 	}
 
 	.purple_list li {
-	    padding-right: 61px;
+	    padding-right: 52px;
+	}
+
+	.row {
+	    margin-right: 0;
+	    margin-left: 0;
 	}
 
 	.footer_row{
