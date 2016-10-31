@@ -6,6 +6,11 @@
   padding: 0px;
 }
 
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 
 /*Header and first section*/
 
@@ -341,10 +346,10 @@ footer .copyright {
 	    padding-right: 52px;
 	}
 
-	.row {
+/*	.team-pictures .row {
 	    margin-right: 0;
 	    margin-left: 0;
-	}
+	}*/
 
 	.footer_row{
 		height: 229px;
